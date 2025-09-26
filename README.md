@@ -136,3 +136,8 @@ The best way to "plot" the graph is by using the Neo4j web-based visualization t
 
 ```
 ```
+## Output
+`http://localhost:7474/browser/`
+![Alt text](assets/Screenshot_20250926_200541.png "UI")
+## Final Graph
+![Alt text](assets/graph.png "UI")
