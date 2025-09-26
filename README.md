@@ -124,9 +124,14 @@ The best way to "plot" the graph is by using the Neo4j web-based visualization t
     LIMIT 25
 
     ```
-
-    This will display the nodes (Actors and Movies) connected by relationships, visually representing your data model.
-
+    This will display the nodes (Actors and Movies) connected by relationships, visually representing your data model.</br>
+    To see the full detail:
+    ```cypher
+    MATCH (n)
+    OPTIONAL MATCH (n)-[r]-(m)
+    RETURN n, r, m
+    LIMIT 50
+    ```   
 <!-- end list -->
 
 ```
